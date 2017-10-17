@@ -1,0 +1,182 @@
+@font-face {
+  font-family: Slim;
+  src: url('../fonts/Slimjoe.otf');
+}
+
+@font-face{
+  font-family: Vanita;
+  src: url('../fonts/Vanitas.otf');
+}
+
+p{
+  font-family: Vanita;
+}
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    // overflow-x: hidden;
+}
+
+#home-footer{
+  background: white;
+    color: black;
+  padding-top: 30px;
+}
+
+.navbar{
+  .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+
+  .nav-item.active{
+    border-left: #444 3px solid;
+  }
+}
+
+.carousel-item{
+  height: 450px;
+}
+
+.carousel-image-1{
+  background:url('../img/3.jpg');
+  // background-size: cover;
+
+}
+
+.carousel-image-2{
+  background:url('../img/image20.jpg');
+  background-size: cover;
+}
+.carousel-image-3{
+  background:url('../img/image21.jpg');
+  background-size: cover;
+
+}
+
+#home-heading{
+  position:relative;
+  // min-height: 200px;
+  background: url('../img/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.dark-overlay{
+  background-color: rgba(0,0,0,0.7);
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ #play {
+   position: relative;
+   background:url('../img/wine30.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+   margin-top: 50px;
+   padding-top: 200px;
+   padding-bottom: 100px;
+
+ }
+
+ #play h1{
+   padding-top: 50px;
+ }
+
+
+ .col-md-4{
+   padding: 15px 50px;
+
+ }
+
+ #about-header{
+   background-size: cover;
+  //  height: 200px;
+   background:url('../img/imac.jpg');
+   background-position: 0 -360px;
+   background-attachment: fixed;
+   color: white;
+   border-bottom: 1px #eee solid;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ #about{
+   img{
+     margin-top: -20px;
+   }
+ }
+
+ #about, .col-md-8{
+   margin-left: 100px;
+ }
+
+ #Prices{
+   background-image: url(../img/image1.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 60px;
+ }
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-inverse .navbar-nav .nav-link{
+  color: black !important;
+}
+
+.navbar-inverse .navbar-brand{
+  color: black !important;
+}
+
+#gallery img{
+  max-width: 500px;
+  max-height: 200px;
+
+}
+#gallery .col-md-4{
+  padding-bottom: 100px;
+}
+
+.first{
+  color: black !important;
+}
+
+#boxes .col-md-4{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#info{
+  text-align: center;
+}
+
+body {
+  font-family: Slim !important;
+}
+
+#services .container {
+  padding-top: 50px;
+}
+
+.btn-danger{
+  margin-left: 100px !important;
+  margin-top: 20px;
+}
